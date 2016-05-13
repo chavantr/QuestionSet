@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="userPracticeQuestionPaper"
+            type="com.mywings.questionset.Model.PracticeQuestionPaperUser" />
+
+
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@{userPracticeQuestionPaper.question.question}"
+                android:textColor="?attr/colorAccent"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:drawablePadding="7dp"
+                android:drawableLeft="@drawable/shape_bullet_green"
+                android:text='@{@string/lbl_correct_anser + " " + userPracticeQuestionPaper.question.correctAnswer}'
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:drawablePadding="7dp"
+                android:drawableLeft="@drawable/shape_bullet"
+                android:text='@{@string/lbl_your_answer + " "+ userPracticeQuestionPaper.question.userAnswer}'
+                android:textColor="?android:textColorPrimary"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</layout>

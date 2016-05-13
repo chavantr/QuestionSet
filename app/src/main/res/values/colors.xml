@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0eb5ca</color>
+    <color name="colorPrimaryDark">#030303</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="userPanel">#FFFFFF</color>
+    <color name="yellow">#C0CA33</color>
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+</resources>

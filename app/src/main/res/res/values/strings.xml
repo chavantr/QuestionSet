@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuestionSet</string>
+    <string name="action_unlike">Unlike</string>
+    <string name="action_unfavorite">Unfavorite</string>
+    <string name="title_activity_question_set_menu">QuestionSetMenu</string>
+    <string name="title_activity_question_set_read_all_section_wise">QuestionSetReadAllSectionWise
+    </string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="like">Like</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="lbl_share_to_your_network">Share to your network</string>
+    <string name="lbl_select_language">Select language</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="title_activity_practice_question_paper">PracticeQuestionPaper</string>
+    <string name="lbl_select_your_answer">Select your answer.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="lbl_correct_anser">Correct anwser :  </string>
+    <string name="lbl_your_answer">Your answer :  </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_my_question_papers">MyQuestionPapers</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="lbl_enter_question_paper_name">Enter question paper name</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="title_activity_user_question_paper_solved">UserQuestionPaperSolved</string>
+    <string name="title_activity_add_task">AddTask</string>
+    <string name="title_activity_add_task_detail">AddTaskDetail</string>
+    <string name="lbl_enter_title">Enter title</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_select_start_date">Select start date</string>
+    <string name="lbl_select_end_date">Select end date</string>
+</resources>
